@@ -17,6 +17,7 @@ public class IncreaseStructureWeightLimitMixinNeoForge {
      */
     @WrapOperation(
             method = {
+                    "lambda$static$0", // 26.2: the pool codec lambda holding Codec.intRange(1, 150)
                     "lambda$static$1",
                     "method_28886"
             },

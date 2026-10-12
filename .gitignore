@@ -28,3 +28,6 @@ logs/
 libs/
 
 CHANGELOG.md
+# local javac build of the 26.2 port
+build-dum/
+build/
